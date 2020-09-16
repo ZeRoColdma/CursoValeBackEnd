@@ -3,7 +3,7 @@ const server = express();
 const dotenv = require('dotenv').config();
 
 server.get('/', (request, response) => {
-  response.json({ Ola: 'Carlos' });
+  response.json({ BoasVindas: 'Servidor Rodando' });
 });
 
 server.get('/cursos', (request, response) => {
