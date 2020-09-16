@@ -15,12 +15,12 @@
 - Body
 - Controladores
 
-![](https://logodownload.org/wp-content/uploads/2014/05/vale-logo-3.png)
+![](https://logospng.org/download/vale/logo-vale-256.png)
 
 # +
 
-![](https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png)
+![](https://cdn.iconscout.com/icon/free/png-256/node-js-3-1174937.png)
 
 # +
 
-![](https://blog.fellyph.com.br/wp-content/uploads/2016/06/react-js.png)
+![](https://bognarjunior.files.wordpress.com/2018/03/if_react-js_logo_1174949.png)
