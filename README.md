@@ -15,4 +15,12 @@
 - Body
 - Controladores
 
-![](https://upload.wikimedia.org/wikipedia/pt/thumb/c/cc/Logotipo_Vale.svg/800px-Logotipo_Vale.svg.png)
+![](https://logodownload.org/wp-content/uploads/2014/05/vale-logo-3.png)
+
+# +
+
+![](https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png)
+
+# +
+
+![](https://blog.fellyph.com.br/wp-content/uploads/2016/06/react-js.png)
