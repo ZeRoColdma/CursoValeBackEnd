@@ -1,4 +1,4 @@
-# Curso FullStack Aula
+# Curso FullStack
 
 **Curso Node.JS e React.JS**
 
