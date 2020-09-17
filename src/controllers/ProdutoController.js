@@ -2,16 +2,16 @@ const Produto = require('../model/ProdutoModel');
 
 module.exports = {
   async index(request, response) {
-    response.json({
-      Nome: 'Carlos',
-      Produto: 'Guitarra',
-      Valor: 12000,
-    });
+    const produtos = await Produto.find();
+
+    return response.json(produtos);
   },
 
-  async store(request, response) {},
+  async store(request, response) {
+    const data = request.body;
 
-  async update(request, response) {},
+    const produtos = await Produto.create(data);
 
-  async delete(request, response) {},
+    return response.json(produtos);
+  },
 };
