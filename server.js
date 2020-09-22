@@ -1,10 +1,12 @@
 const express = require('express');
 const server = express();
-const dotenv = require('dotenv').config();
+require('./.env');
 const routes = require('./src/routes');
 
 server.use(express.json());
 
-server.listen(process.env.PORT);
-console.log(`Instacia do servidor iniciado na porta ${process.env.PORT}.`);
+const port = 3333;
+
+server.listen(port);
+console.log(`Instacia do servidor iniciado na porta.`, port);
 server.use(routes);

@@ -1,12 +1,24 @@
 const express = require('express');
 const routes = express.Router();
-const dotenv = require('dotenv').config();
 
 //!----------------Import de Controladores-----------
 const ProdutoController = require('./controllers/ProdutoController');
+const UserController = require('./controllers/UserController');
 //!----------------Import de Controladores-----------
 
-routes.get('/produto', ProdutoController.index);
-routes.post('/produto', ProdutoController.store);
+//!----------------Rotas de produto------------------
+routes.get('/produtos', ProdutoController.index);
+routes.get('/produtos_id/:codigoProduto', ProdutoController.show);
+routes.get('/filterProduto/:descricao', ProdutoController.findName);
+
+routes.post('/produtos', ProdutoController.store);
+routes.post('/produtos_id/:codigoProduto', ProdutoController.update);
+routes.delete('/produtos_id/:codigoProduto', ProdutoController.delete);
+//!----------------Rotas de produto------------------
+
+//!----------------Rotas Usuarios--------------------
+routes.post('/novoUsuario', UserController.store);
+routes.post('/loginUser', UserController.validateUser);
+//!----------------Rotas Usuarios--------------------
 
 module.exports = routes;
