@@ -6,4 +6,7 @@ const cors = require('cors');
 server.use(express.json());
 server.use(routes);
 server.use(cors());
-server.listen(3333);
+
+port = process.env.PORT || 3333;
+
+server.listen(port);
