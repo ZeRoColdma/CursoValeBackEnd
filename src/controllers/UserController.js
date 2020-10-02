@@ -1,7 +1,4 @@
-const { response } = require('express');
-const mongoose = require('mongoose');
 const User = require('../model/SessionModel');
-const { index } = require('./ProdutoController');
 
 module.exports = {
   async index(request, response) {},
@@ -17,6 +14,7 @@ module.exports = {
 
     return response.json(dataUser);
   },
+  
   async validateUser(request, response) {
     const { email, senha } = request.body;
     const userValidate = await User.findOne({ email, senha });

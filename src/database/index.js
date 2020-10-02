@@ -7,6 +7,4 @@ mongoose.connect(DATABASE, {
   useUnifiedTopology: true,
 });
 
-mongoose.Promise = global.Promise;
-
 module.exports = mongoose;
